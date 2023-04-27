@@ -8,6 +8,8 @@ import (
 	"github.com/anchore/syft/syft/file"
 )
 
+// /var/lib/rpm/... is the typical path for most distributions
+// /usr/share/rpm/... is common for rpm-ostree distributions (coreos-like)
 // Packages is the legacy Berkely db based format
 // Packages.db is the "ndb" format used in SUSE
 // rpmdb.sqlite is the sqlite format used in fedora + derivates
